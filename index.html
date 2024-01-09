@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Party time</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif;
+
+    }
+
+    body,
+    html {
+      height: 100%;
+      line-height: 1.8;
+
+    }
+
+    #home {
+      background-image: url('https://media.istockphoto.com/id/1158387304/photo/abstract-geometric-pattern-background-white.webp?b=1&s=170667a&w=0&k=20&c=WZUROz76O4sfU1grL6FDwr27o4d7Rl041PRaAs9hQxI=');
+      background-repeat: no-repeat;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("/w3images/mac.jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">Party Time</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
+        <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PACKAGES</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="https://guideposts.org/wp-content/uploads/2012/12/Two-hands-holding-sparklers-with-lights-in-the-background-after-reading-a-new-year-devotional.jpg.optimal.jpg"
+        class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+    style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-black" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small">IT’S PARTY TIME
+        LET'S DISCOVER TOGETHER</span><br>
+      <span class="w3-large">Do you need any help in booking events??? Party time always with you whenever you
+        are.</span><br>
+      <span class="w3-large">“Plans are useless but planning is essential” by Dwight D. Eisenhover</span>
+      <p><a href="#about"
+          class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Let's Get
+          Started</a></p>
+    </div>
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">ABOUT THE COMPANY</h3>
+    <p class="w3-center w3-large">Key features of our company</p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Party Time brings people together</p>
+        <p>Party time brings people together, creating a lively and engaging atmosphere. It's an opportunity to
+          socialize, let loose, and celebrate, fostering connections and creating lasting memories in a vibrant and
+          energetic setting.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Party Time's Aim</p>
+        <p>Party Time is a haven for all party enthusiasts. It's a virtual playground where people come together to
+          celebrate, connect, and create unforgettable memories. Whether you're planning a birthday bash, a holiday
+          extravaganza, or a simple get-together with friends, Party Time provides you with everything you need to make
+          your event a resounding success.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Party Time's Design</p>
+        <p>Designing for party time involves crafting an ambiance that embodies fun, excitement, and celebration. From
+          vibrant decorations to dynamic lighting and engaging interactive elements, the design sets the stage for an
+          unforgettable experience, captivating guests and enhancing the festive atmosphere.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Party Time's Support</p>
+        <p>Supporting party time entails providing assistance, ensuring smooth logistics, and tending to the needs of
+          guests. From coordinating logistics to offering a helping hand, support contributes to a seamless and
+          enjoyable experience, allowing everyone to fully immerse themselves in the festivities.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promo Section - "We know design" -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="design">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>We know design.</h3>
+        <p>We provide various types of services to our customer such as themed events, marquee parties and other. Also,
+          we offer packages in the packages section.</p>
+        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large"
+          src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlYW0lMjB3b3JrfGVufDB8fDB8fHww"
+          alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Work Section -->
+  <div class="w3-container" style="padding:128px 16px" id="work">
+    <h3 class="w3-center">SERVICES</h3>
+
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <p>Themed events</p>
+        <img
+          src="https://images.unsplash.com/photo-1618594261772-9b95aa1d31a0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGhlbWVkJTIwZXZlbnRzfGVufDB8fDB8fHww"
+          style="width:100%" style="height: 50%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Step into a world of enchantment with our themed events. From elegant masquerade balls to whimsical fairy tale adventures, we create unforgettable experiences. Immerse yourself in a bygone era or embark on a thrilling safari expedition. Our team takes care of every detail, ensuring flawless execution. With interactive games, live performances, and immersive installations, our events engage and entertain. Transport your guests to a mystical wonderland or a glamorous era with our unparalleled themed events.">
+      </div>
+      <div class="w3-col l3 m6">
+        <p>Marquee parties</p>
+        <img
+          src="https://images.unsplash.com/photo-1667916204297-a88b97bb2146?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fG1hcnF1ZWUlMjBwYXJ0aWVzfGVufDB8fDB8fHww"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Discover the excitement of marquee events and elevate your experience with our exceptional services. Join us as we delve into the world of exclusive conferences, renowned trade shows, captivating festivals, and groundbreaking product launches. Don't miss out on these highly anticipated gatherings that are sure to ignite your passion. Embrace the opportunity to connect, learn, and network with industry leaders, and let our services enhance your event experience to create unforgettable memories. Elevate your presence and make the most of these marquee events with our premium offerings.">
+      </div>
+      <div class="w3-col l3 m6" id="services">
+        <p>Special celebrations</p>
+        <img
+          src="https://images.unsplash.com/photo-1533875680152-68934b573b89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNwZWNpYWwlMjBjZWxlYnJhdGlvbnN8ZW58MHx8MHx8fDA%3D"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Celebrate your special moments in style with our exceptional services. Whether it's a milestone birthday, a dream wedding, or a corporate gala, we are here to make your celebration extraordinary. From exquisite decorations and flawless event planning to top-notch catering and entertainment, we take care of every detail, ensuring a seamless and unforgettable experience. Trust us to bring your vision to life and create cherished memories that will last a lifetime. Make your special celebration truly remarkable with our premium services and expertise.">
+      </div>
+      <div class="w3-col l3 m6">
+        <p>Entertainment</p>
+        <img
+          src="https://images.unsplash.com/photo-1561229001-0afaa4d4c7b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGVudGVydGFpbm1lbnR8ZW58MHx8MHx8fDA%3D"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Immerse yourself in a world of entertainment and let our services elevate your event experience. From electrifying concerts and dazzling theater performances to thrilling sports events and engaging cultural festivals, we bring you the best in entertainment. Join us as we celebrate the magic of live performances, creating unforgettable moments that leave you captivated. Enhance your experience with our premium offerings and embark on a journey of excitement and joy. Let us be your guide to unforgettable entertainment events that will leave you craving for more.">
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <p>Other Services</p>
+        <img
+          src="https://images.unsplash.com/photo-1429087969512-1e85aab2683d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG90aGVyJTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Discover a world of diverse services that cater to your every need. From professional conferences and informative workshops to interactive training sessions and inspiring seminars, we offer a wide range of events that are designed to enrich your knowledge and skills. Whether you're seeking personal growth, professional development, or simply looking to expand your horizons, our services provide the perfect platform to learn, connect, and thrive. Join us as we curate exceptional experiences that empower you to reach your fullest potential. Invest in yourself and unlock a world of possibilities with our premium services. Other services consist of fundraisers, bespoke catering, themes and props, invitations and printworks, and sound and lightning. More of these details you can contact us.">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+
+
+  <!-- Pricing Section -->
+  <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+    <h3>PACKAGES</h3>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-brown w3-xlarge w3-padding-32">Bronze</li>
+          <li class="w3-padding-16"> Room decorations: balloons, banners</li>
+          <li class="w3-padding-16"> Table decorations: centrepieces, gifts</li>
+          <li class="w3-padding-16"> DJ entertainment</li>
+          <li class="w3-padding-16"> Cold buffet</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 499.99</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#contact_form"><button class="w3-button w3-black w3-padding-large">Sign Up</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-grey w3-xlarge w3-padding-32">Silver</li>
+          <li class="w3-padding-16">Invitation design and handling</li>
+          <li class="w3-padding-16">Party cost clear up</li>
+          <li class="w3-padding-16">Live band entertainment</li>
+          <li class="w3-padding-16">Cold buffet and soft drinks</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 699.99</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#contact_form"><button class="w3-button w3-black w3-padding-large">Sign Up</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-yellow w3-xlarge w3-padding-32">Gold</li>
+          <li class="w3-padding-16">Staff in attendance to ensure complete perfection</li>
+          <li class="w3-padding-16">Finding guest accommodation, booking transport</li>
+          <li class="w3-padding-16">Live band entertainment and magician</li>
+          <li class="w3-padding-16">Hot and Cold buffet and soft drinks</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 899.99</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#contact_form"><button class="w3-button w3-black w3-padding-large">Sign Up</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-section" id="custom">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-white w3-xlarge w3-padding-32">Custom</li>
+          <li class="w3-padding-16">Available for specific parties</li>
+          <li class="w3-padding-16">Additional decorations</li>
+          <li class="w3-padding-16">Additional staff</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$499.99 - $899.99</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#contact_form"><button class="w3-button w3-black w3-padding-large">Sign Up</button></a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center" id="contact_form">CONTACT</h3>
+    <p class="w3-center w3-large">Welcome to contact form page</br>
+      Please write your booking details</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Jaw, Manama</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +973 3444 4443</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: party.09time@mail.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p>
+          <label for="email">Email:<br></label>
+          <input class="w3-input w3-border" id="email" type="emial" placeholder="Email" required name="Emial">
+        </p>
+
+        <p>
+          <label for="first name">First Name:<br></label>
+          <input class="w3-input w3-border" type="text" placeholder="First Name" id="first_name" required name="First Name">
+        </p>
+
+        <p>
+          <label for="last name">Last Name:<br></label>
+          <input class="w3-input w3-border" type="text" placeholder="Last Name" id="last_name" required name="Last Name">
+        </p>
+
+        <p>
+          <label for="address">Address:<br></label>
+          <input class="w3-input w3-border" id="address" type="number" placeholder="Address" required name="Address">
+        </p>
+
+
+        <div class="form-group">
+          <label for="date">Date for booking:<br></label>
+          <input class="w3-input w3-border" type="date" id="date" name="date" required>
+        </div>
+
+        <p> Services: <br>
+          <select class="w3-input w3-border" name="customer" id="customer" required>
+            <option value="">Select an option</option>
+            <option value="none">None</option>
+            <option value="themed_events">Themed events</option>
+            <option value="marquee_parties">Marquee Parties</option>
+            <option value="special_celebrations">Special Celebrations</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="Other-fundraisers">Other - fundraisers</option>
+            <option value="Other-bespoke_catering">Other - bespoke catering</option>
+            <option value="Other-themes_and_props">Other - themes and props</option>
+            <option value="Other-invitations_and_printworks">Other - invitations and printworks</option>
+            <option value="Other-sound_and_lightning">Other - sound and lightning</option>
+          </select>
+        </p>
+
+        <p> Packages: <br>
+          <select class="w3-input w3-border" name="customer" id="customer" required>
+            <option value="">Select an option</option>
+            <option value="none">None</option>
+            <option value="bronze">Bronze Package</option>
+            <option value="silver">Silver Package</option>
+            <option value="gold">Gold Package</option>
+            <option value="custom_package">Custom Package</option>
+          </select>
+        </p>
+        <p>
+
+        <p> Any suggestions or comments:</p>
+        <textarea id="comments" class="w3-input w3-border" name="comment"
+          placeholder="Enter your suggestion or comment here..."></textarea>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SUBMIT
+          </button>
+        </p>
+      </form>
+      <!-- Image of location/map -->
+      <p>Map (location):</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.1453336641885!2d50.60925467421022!3d26.028800377185057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e4854135c18ea7f%3A0xaf0bf0bb7a3e7ae8!2sNasser%20Vocational%20Training%20Center%20(NVTC)!5e0!3m2!1sen!2sbh!4v1702966997022!5m2!1sen!2sbh"
+        width="190" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+    </div>
+  </footer>
+
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
